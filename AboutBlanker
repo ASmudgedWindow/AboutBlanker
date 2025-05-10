@@ -1,0 +1,33 @@
+<html>
+
+<head>
+</head>
+
+<body>
+	<button onclick="openSeraph()">Open Seraph</button>
+	<button onclick="openMocha()">Open Mocha</button>
+	<script>
+		function openSeraph() {
+var win = window.open()
+var url = "https://definitelynotblocked.vercel.app/games/index.html"
+var iframe = win.document.createElement('iframe')
+iframe.style.width = "100%";
+iframe.style.height = "100%";
+iframe.style.border = "none";
+iframe.src = url
+win.document.body.appendChild(iframe)
+}
+		function openMocha() {
+var win = window.open()
+var url = "https://another-link-micah-made-wow.vercel.app/"
+var iframe = win.document.createElement('iframe')
+iframe.style.width = "100%";
+iframe.style.height = "100%";
+iframe.style.border = "none";
+iframe.src = url
+win.document.body.appendChild(iframe)
+}
+	</script>
+</body>
+
+</html>
